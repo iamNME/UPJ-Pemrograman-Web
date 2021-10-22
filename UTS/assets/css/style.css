@@ -1,0 +1,81 @@
+.collapse ul li a.nav-link{
+    font-weight: bold !important;
+    position: relative;
+}
+
+/* .collapse ul li a.nav-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    transition: width 0.3s;
+}
+
+.collapse ul li a.nav-link:hover::after{
+    width: 50%;
+} */
+
+.text-box{
+    display: flex;
+}
+
+.banner-btn p.connect{
+    font-size: 14px;
+    padding: 7px 20px;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+
+#first{
+    font-size: 30px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+#second{
+    font-size: 80px;
+    line-height: 65px;
+    font-weight: 700;
+    margin-left: -3px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background-image: url(../images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+#third{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#fourth{
+    font-size: 40px;
+    color: black;
+    background-color: rgb(255 255 255 / .7);
+    padding: 10px 30px;
+}
+
+.social-icons{
+    position: absolute;
+    right: 2%;
+    bottom: 15%;
+}
+
+.social-icons img{
+    width: 20px;
+    display: block;
+    margin: 25px 5px;
+}
