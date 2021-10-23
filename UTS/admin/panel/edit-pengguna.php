@@ -73,8 +73,8 @@
 					
     					  if($_SERVER['REQUEST_METHOD'] == "POST"){
 										$id = $_POST['id'];
-    					      $jusername = $_POST['username'];
-    					      $password = $_POST['password'];
+    					      $username = $_POST['username'];
+    					      $password = md5($_POST['password']);
     					      $level = $_POST['level'];
 								
     					      $sql = "UPDATE admin SET username='$username', password='$password', level='$level' WHERE id='$id'";
